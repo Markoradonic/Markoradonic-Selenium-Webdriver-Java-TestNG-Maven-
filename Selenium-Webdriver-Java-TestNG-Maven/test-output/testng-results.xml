@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-14T20:22:46 CEST" name="Default suite" finished-at="2022-09-14T20:22:57 CEST" duration-ms="11339">
+  <suite started-at="2022-09-14T22:25:46 CEST" name="Default suite" finished-at="2022-09-14T22:26:02 CEST" duration-ms="15795">
     <groups>
     </groups>
-    <test started-at="2022-09-14T20:22:46 CEST" name="Default test" finished-at="2022-09-14T20:22:57 CEST" duration-ms="11339">
+    <test started-at="2022-09-14T22:25:46 CEST" name="Default test" finished-at="2022-09-14T22:26:02 CEST" duration-ms="15795">
       <class name="com.marko.app.OrderTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.marko.app.OrderTest@12aba8be]" started-at="2022-09-14T20:22:46 CEST" name="setup" finished-at="2022-09-14T20:22:53 CEST" duration-ms="7241" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.marko.app.OrderTest@12aba8be]" started-at="2022-09-14T22:25:46 CEST" name="setup" finished-at="2022-09-14T22:25:50 CEST" duration-ms="4000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="allTests()[pri:0, instance:com.marko.app.OrderTest@12aba8be]" started-at="2022-09-14T20:22:53 CEST" name="allTests" finished-at="2022-09-14T20:22:55 CEST" duration-ms="1627" status="PASS">
+        <test-method signature="allTests()[pri:0, instance:com.marko.app.OrderTest@12aba8be]" started-at="2022-09-14T22:25:50 CEST" name="allTests" finished-at="2022-09-14T22:26:02 CEST" duration-ms="11667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marko.app.OrderTest@12aba8be]" started-at="2022-09-14T20:22:55 CEST" name="tearDown" finished-at="2022-09-14T20:22:57 CEST" duration-ms="2429" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marko.app.OrderTest@12aba8be]" started-at="2022-09-14T22:26:02 CEST" name="tearDown" finished-at="2022-09-14T22:26:02 CEST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
