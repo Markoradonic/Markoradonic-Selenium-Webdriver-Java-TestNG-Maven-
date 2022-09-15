@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T13:12:23 CEST" name="Default suite" finished-at="2022-09-15T13:12:46 CEST" duration-ms="23743">
+  <suite started-at="2022-09-15T16:10:10 CEST" name="Default suite" finished-at="2022-09-15T16:10:32 CEST" duration-ms="22076">
     <groups>
     </groups>
-    <test started-at="2022-09-15T13:12:23 CEST" name="Default test" finished-at="2022-09-15T13:12:46 CEST" duration-ms="23743">
+    <test started-at="2022-09-15T16:10:10 CEST" name="Default test" finished-at="2022-09-15T16:10:32 CEST" duration-ms="22076">
       <class name="com.marko.app.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T13:12:23 CEST" name="setup" finished-at="2022-09-15T13:12:27 CEST" duration-ms="3877" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T16:10:10 CEST" name="setup" finished-at="2022-09-15T16:10:13 CEST" duration-ms="3768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T13:12:27 CEST" name="loginUser" data-provider="getData" finished-at="2022-09-15T13:12:37 CEST" duration-ms="10563" status="PASS">
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T16:10:13 CEST" name="loginUser" data-provider="getData" finished-at="2022-09-15T16:10:24 CEST" duration-ms="10112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
-        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T13:12:37 CEST" name="loginUser" data-provider="getData" finished-at="2022-09-15T13:12:46 CEST" duration-ms="9184" status="PASS">
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T16:10:24 CEST" name="loginUser" data-provider="getData" finished-at="2022-09-15T16:10:32 CEST" duration-ms="8044" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T13:12:46 CEST" name="tearDown" finished-at="2022-09-15T13:12:46 CEST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marko.app.LoginTest@4659191b]" started-at="2022-09-15T16:10:32 CEST" name="tearDown" finished-at="2022-09-15T16:10:32 CEST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

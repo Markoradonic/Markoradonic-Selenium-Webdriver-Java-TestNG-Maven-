@@ -2,6 +2,9 @@ package com.marko.app;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -64,6 +67,17 @@ public class LoginTest extends BasePage {
 		loginUser.getUserPassword().sendKeys(pass);
 		loginUser.getSignInButton().click();
 		Thread.sleep(2000);
+		
+		WebElement loginUserTest = driver.findElement(By.cssSelector("[title] .hidden-sm-down"));
+		String formsGetText = loginUserTest.getText();
+		
+		Assert.assertEquals(formsGetText, "test test");
+		
+		if(driver.getPageSource().contains(formsGetText)) {
+			System.out.println("contains " + formsGetText);
+		}else {
+			System.out.println("does not contain " + formsGetText);
+		}
 		UserAccountPage userAccount = new UserAccountPage(driver);
 		userAccount.getSignOutButton().click();
 		Thread.sleep(2000);

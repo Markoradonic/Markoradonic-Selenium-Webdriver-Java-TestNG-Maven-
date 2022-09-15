@@ -41,18 +41,15 @@ public class AddAndRemoveItem extends BasePage {
 		HomePage home = new HomePage(driver);
 		home.getTestStoreLink().click();
 
-		// creating an object of the test store homepage
 		ShopHomepage shopHome = new ShopHomepage(driver);
 		shopHome.getProdOne().click();
 
-		// creating an object of the shop products page (when a product has been selected)
 		ShopProductPage shopProd = new ShopProductPage(driver);
 		Select option = new Select(shopProd.getSizeOption());
 		option.selectByVisibleText("M");
 		shopProd.getQuantIncrease().click();
 		shopProd.getAddToCartBtn().click();
 
-		// creating an object of the cart content panel (once an item was added)
 		ShopContPanel cPanel = new ShopContPanel(driver);
 		cPanel.getContinueShopBtn().click();
 		shopProd.getHomepageLink().click();
