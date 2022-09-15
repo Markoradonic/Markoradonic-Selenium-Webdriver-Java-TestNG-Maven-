@@ -16,6 +16,7 @@ public class ShopHomepage {
 	By productSix = By.linkText("Mug The Best Is Yet To Come");
 	By productSeven = By.linkText("Mug The Adventure Begins");
 	By productEight = By.linkText("Mug Today Is A Good Day");
+	By signIn = By.cssSelector("div#_desktop_user_info .hidden-sm-down");
 
 	public ShopHomepage(WebDriver driver) {
 		this.driver = driver;
@@ -51,5 +52,9 @@ public class ShopHomepage {
 
 	public WebElement getProdEight() {
 		return driver.findElement(productEight);
+	}
+	
+	public WebElement getSignInButton () {
+		return driver.findElement(signIn);
 	}
 }

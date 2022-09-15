@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.marko.app.OrderTest">
+      <class name="com.marko.app.LoginTest">
         <methods>
-          <include name="allTests"/>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="loginUser" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.marko.app.OrderTest -->
+      </class> <!-- com.marko.app.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
